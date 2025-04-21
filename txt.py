@@ -1,7 +1,3 @@
-streamlit 
-LpProblem
-LpMinimize 
-LpVariable 
-lpSum 
-LpBinary
-pandas 
+streamlit
+pulp
+pandas
