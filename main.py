@@ -1,3 +1,7 @@
+import pandas as pd
+import streamlit as st
+from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpBinary
+
 def optimize_timetable():
     # Entities
     courses = ["Math", "Physics", "Chemistry", "English", "Biology"]
